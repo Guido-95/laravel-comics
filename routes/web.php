@@ -19,3 +19,24 @@ Route::get('/', function () {
         'data' => $comics
     ]);
 });
+
+Route::get('/characters', function () {
+    return view('characters');
+});
+
+Route::get('/movies', function () {
+    return view('movies');
+});
+
+
+Route::get('/tv', function () {
+    return view('tv');
+});
+
+
+
+Route::get('/games', function () {
+    return view('games');
+});
+
+
