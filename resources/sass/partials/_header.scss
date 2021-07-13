@@ -1,0 +1,21 @@
+h1{
+    color: aqua;
+}
+
+header{
+    height: 100px;
+    background-color: grey;
+}
+
+.container{
+    height: 100%;
+}
+
+.list-header{
+    background-color: honeydew;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
