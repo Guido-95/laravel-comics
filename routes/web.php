@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
     $comics = config('comics');
     return view('home',[
@@ -28,12 +29,9 @@ Route::get('/movies', function () {
     return view('movies');
 });
 
-
 Route::get('/tv', function () {
     return view('tv');
 });
-
-
 
 Route::get('/games', function () {
     return view('games');
