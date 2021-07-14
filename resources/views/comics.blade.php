@@ -1,5 +1,9 @@
 @extends('layout.main')
+@section('title')
 
+    Comics
+    
+@endsection
 @section('main-content')
     <div class="container">
         <section>

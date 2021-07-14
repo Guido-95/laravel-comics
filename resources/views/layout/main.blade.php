@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="stylesheet" href="{{ asset("css/app.css") }}">
-    <title>titolo</title>
+    <title>@yield('title')</title>
 </head>
 <body>
     
